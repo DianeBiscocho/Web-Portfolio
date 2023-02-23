@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	/*background-image: url(./bg.jpg);*/
+	background-color: black;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+h1 {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	color: #fc6a03;
+}
+nav {
+	font-family: 'Comfortaa', cursive;
+	background-color: #FEBA4F; 
+}
+#about-me {
+	background-color: black;
+}
+/*#about-me-text {
+	background-color: #e7d4c0;
+}*/
+/*#about-me-img{
+	background-color: #e7d4c0;
+}*/
+
+.apply-button {
+	color: black;
+	font-weight: bold;
+	background-color: #FEBA4F;
+	padding: 0.75rem 2rem;
+	font-size: 1rem;
+	border: 0;
+	border-radius: 25px;
+
+}
+
+
+#project-title {
+	color: #fc6a03;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+
+#project-bg {
+	background-color: black;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+
+
+
+
+#contact-bg {
+	background-color: black
+}
+#contact-card {
+	background-color: #D74826;
+}
+#send-email-btn {
+	background-color: #FEBA4F;
+}
