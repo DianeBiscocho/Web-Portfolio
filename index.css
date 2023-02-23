@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 body {
-	/*background-image: url(./bg.jpg);*/
 	background-color: black;
 }
 p {
@@ -16,12 +15,23 @@ h1 {
 	text-align: center;
 	color: #fc6a03;
 }
+#by {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	text-align: center;
+	color: #FFA500;
+}
+#web-dev {
+	font-family: 'Permanent Marker', cursive;
+}
+
 nav {
 	font-family: 'Comfortaa', cursive;
-	background-color: #FEBA4F; 
+	background-color: #FFA500;
+	/*background-color: #fc6a03;*/ 
 }
 #about-me {
-	background-color: black;
+	/*background-color: black;*/
 }
 /*#about-me-text {
 	background-color: #e7d4c0;
@@ -30,16 +40,37 @@ nav {
 	background-color: #e7d4c0;
 }*/
 
+
+#about-me-section {
+	font-family: 'Permanent Marker', cursive;
+}
+
 .apply-button {
 	color: black;
+	font-family: 'Comfortaa', cursive;
 	font-weight: bold;
-	background-color: #FEBA4F;
+	background-color: #FFA500;
 	padding: 0.75rem 2rem;
 	font-size: 1rem;
 	border: 0;
 	border-radius: 25px;
 
 }
+
+#exp {
+	color: black;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size: 1rem;
+	float: left;
+}
+
+
+
+
+
+
+
 
 
 #project-title {
@@ -48,9 +79,6 @@ nav {
 	text-align: center;
 }
 
-#project-bg {
-	background-color: black;
-}
 
 .carousel-inner img {
   margin: auto;
@@ -67,5 +95,5 @@ nav {
 	background-color: #D74826;
 }
 #send-email-btn {
-	background-color: #FEBA4F;
+	background-color: #FFA500;
 }
