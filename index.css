@@ -17,19 +17,56 @@ h1 {
 }
 #by {
 	font-family: 'Comfortaa', cursive;
+	font-weight: bolder;
 	font-size: 2rem;
 	text-align: center;
 	color: #FFA500;
 }
 #web-dev {
 	font-family: 'Permanent Marker', cursive;
+	/*font-family: 'Just Another Hand', cursive;*/
+	font-size: 3.5rem;
+	/*font-size: 5rem;*/
 }
 
 nav {
 	font-family: 'Comfortaa', cursive;
-	background-color: #FFA500;
+	background-color: darkgray;
 	/*background-color: #fc6a03;*/ 
 }
+
+.intro-description {
+	padding-top: 1rem;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.background {
+	min-height: 40rem;
+/*	background-color: gray;*/
+	background-image: url(./projects-bg.gif);
+	background-repeat: no-repeat;
+	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
+	background-size: 100%;
+	/*auto, contain, cover, 100%, px*/
+	background-position: 10% 40%;
+	/*10% 40%*/
+	background-position: center;
+	background-attachment: fixed;
+	/*scroll, fixed*/
+}
+
+.container-bg {
+/*	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(239,183,61);*/
+	min-height: 100vh;
+}
+
+
+
+
+
+
+
 #about-me {
 	/*background-color: black;*/
 }
@@ -43,6 +80,10 @@ nav {
 
 #about-me-section {
 	font-family: 'Permanent Marker', cursive;
+
+/*	font-family: 'Just Another Hand', cursive;
+	font-size: 5rem;*/
+
 }
 
 .apply-button {
@@ -60,24 +101,63 @@ nav {
 #exp {
 	color: black;
 	font-family: 'Comfortaa', cursive;
-	font-weight: bold;
+	font-weight: bolder;
 	font-size: 1rem;
 	float: left;
+	color: #FFA500;
+}
+
+#resume {
+	text-align: left;
+}
+#job {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+#name {
+	font-family: 'Permanent Marker', cursive;
+	/*font-family: 'Just Another Hand', cursive;*/
+	color: #FFA500;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	/*font-size: 2.5rem;*/
+}
+
+#job-title {
+	font-family: 'Comfortaa', cursive;
+	font-weight: bolder;
+	font-size: 0.80rem;
+}
+#linkedin {
+	color: #0082ca;
 }
 
 
 
 
-
-
-
+#bg-2 {
+	min-height: 40rem;
+/*	background-color: gray;*/
+	background-image: url(./projects-bg.gif);
+	background-repeat: no-repeat;
+	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
+	background-size: 100%;
+	/*auto, contain, cover, 100%, px*/
+	background-position: 10% 40%;
+	/*10% 40%*/
+	background-position: center;
+	background-attachment: fixed;
+	/*scroll, fixed*/
+}
 
 
 #project-title {
-	color: #fc6a03;
-	font-family: 'Comfortaa', cursive;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
 	text-align: center;
 }
+
+
 
 
 .carousel-inner img {
@@ -86,14 +166,20 @@ nav {
 
 
 
-
-
-#contact-bg {
-	background-color: black
+#contact-text {
+	font-family: 'Permanent Marker', cursive;
 }
+
 #contact-card {
-	background-color: #D74826;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	background-color: white;
+	color: #fc6a03;
 }
 #send-email-btn {
+	background-color: #FFA500;
+	border-radius: 20px;
+}
+#close {
 	background-color: #FFA500;
 }
