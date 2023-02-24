@@ -10,6 +10,7 @@ p {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
+/*dark orange hex*/
 h1 {
 	font-family: 'Comfortaa', cursive;
 	text-align: center;
@@ -22,12 +23,13 @@ h1 {
 	text-align: center;
 	color: #FFA500;
 }
-#web-dev {
+#web-dev, #web-dev-1 {
 	font-family: 'Permanent Marker', cursive;
 	/*font-family: 'Just Another Hand', cursive;*/
 	font-size: 3.5rem;
 	/*font-size: 5rem;*/
 }
+
 
 nav {
 	font-family: 'Comfortaa', cursive;
@@ -48,10 +50,11 @@ nav {
 	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
 	background-size: 100%;
 	/*auto, contain, cover, 100%, px*/
-	background-position: 10% 40%;
-	/*10% 40%*/
+/*	background-position: 10% 40%;
+	/*10% 40%*/*/
 	background-position: center;
 	background-attachment: fixed;
+	/*overflow: scroll;*/
 	/*scroll, fixed*/
 }
 
@@ -86,7 +89,7 @@ nav {
 
 }
 
-.apply-button {
+.apply-button, #connect {
 	color: black;
 	font-family: 'Comfortaa', cursive;
 	font-weight: bold;
@@ -123,14 +126,12 @@ nav {
 	/*font-size: 2.5rem;*/
 }
 
-#job-title {
+#job-title, h5 {
 	font-family: 'Comfortaa', cursive;
 	font-weight: bolder;
 	font-size: 0.80rem;
 }
-#linkedin {
-	color: #0082ca;
-}
+
 
 
 
@@ -143,20 +144,45 @@ nav {
 	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
 	background-size: 100%;
 	/*auto, contain, cover, 100%, px*/
-	background-position: 10% 40%;
-	/*10% 40%*/
+/*	background-position: 10% 40%;
+	/*10% 40%*/*/
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	/*scroll, fixed*/
+	/*overflow: scroll;*/
 }
 
+
+#projects-bg {
+	background-image: background-image: url(./projects-bg.gif);
+	min-height: 40rem;
+/*	background-color: gray;*/
+	background-image: url(./projects-bg.gif);
+	background-repeat: no-repeat;
+	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
+	background-size: 100%;
+	/*auto, contain, cover, 100%, px*/
+/*	background-position: 10% 40%;
+	/*10% 40%*/*/
+	background-position: center;
+	background-attachment:scroll;
+	/*scroll, fixed*/
+	/*overflow: scroll;*/
+}
 
 #project-title {
 	color: white;
 	font-family: 'Permanent Marker', cursive;
+	font-size: 3rem;
 	text-align: center;
 }
 
+#project-title-2 {
+	color: #fc6a03;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3rem;
+	text-align: center;
+}
 
 
 
@@ -182,4 +208,19 @@ nav {
 }
 #close {
 	background-color: #FFA500;
+}
+#pre-footer div {
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 1rem 5%  2rem;
+}
+#pre-footer {
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+    color: white;
+    font-size: 1rem;
+}
+#pre-footer p {
+	margin-bottom: 0.25rem;
+	text-align: left;
 }
