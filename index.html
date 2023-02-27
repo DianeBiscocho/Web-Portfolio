@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
@@ -15,12 +16,64 @@
     <!-- Mobile Responsive Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+   
     <title>Portfolio</title>
     
 </head>
 <body class="text-center">
 
-	<!-- Navbar -->
+ 		<nav class="navbar navbar-expand-lg bg-white nav-dark shadow-lg sticky-top">
+          	<a class="navbar-brand" href="./index.html">
+	  	 		 <img src="./logo.gif" width="35"  class="d-inline-block align-top pl-2">
+ 			</a>
+		
+			<button class="navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	   		<span class="navbar-toggler-icon"></span>
+	  		</button>
+            
+        
+              
+              <div class="collapse navbar-collapse" id="navbarNav">
+                
+                <ul class="navbar-nav ml-auto text-white">
+                
+                  <li class="nav-item active">
+
+                    <a class="nav-link" href="./index.html">
+                      <img src="home-icon.gif">
+                      <p class="text-dark">Home</p>
+                    </a>
+                  </li>              
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-me-text">
+                      <img src="about-icon.gif">
+                      <p class="text-dark">About Me</p>
+                    </a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#project-title">
+                      <img src="proj-icon.gif">
+                      <p class="text-dark">Projects</p>
+                    </a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-text">
+                    	<img src="contact-icon.gif">
+                      <p class="text-dark">Contact</p>
+                    </a>
+                  </li>
+        		        
+                </ul>
+              <!-- </div> -->
+            </div>
+        </nav>
+          <!-- End Navbar Primary -->
+
+
+	<!-- Navbar 
 	<nav class="navbar navbar-expand-lg navbar-light shadow sticky-top bg-dark p-1">
 	  <a class="navbar-brand" href="./index.html">
 	  	  <img src="./logo.gif" width="35"  class="d-inline-block align-top pl-2">
@@ -33,9 +86,9 @@
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item active">
 	        <li class="nav-item">
-	        <a class="nav-link text-white" href="./index.html">Home</a>
+	        <a class="nav-link text-white" href="./index.html" role="button">Home</a>
 	      </li>
-	        <a class="nav-link text-white" href="#about-me-text" role="button">About Me<span class="sr-only">(current)</span></a>
+	        <a class="nav-link text-white" href="#about-me-text" role="button">About<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link text-white" href="#project-title" role="button">Projects</a>
@@ -47,17 +100,25 @@
 	  </div>
 	</nav>
 
+-->
+<!-- <section class="login-page sidebar-collapse">
+    <div class="section section-navbars">
+      <div id="navbar">
+        <div class="navigation-example"> -->
+          <!-- Navbar Primary  -->
+         
+</section>
 
 	<!-- Home section -->
 <section class="background d-none d-sm-none  d-md-block">		
 		<!-- <div id="about-me" class="container-fluid row text-center align-center" id="about-me"> -->
-               		
-                    <h1 class="pt-5 text-center text-white" id="web-dev-1">Product Developer <span id="by" class="text-white">by day,</span></h1>
+               		<div class="align-middle pt-5">
+                    <h1 class="pt-5 text-center text-white " id="web-dev-1">Product Developer <span id="by" class="text-white">by day,</span></h1>
                 		<h1 class="text-center text-dark" id="web-dev">Web Developer <span id="by" class="text-dark">by night</span></h1>
                     <p class="text-center text-dark intro-description pb-5" width="50">I am an energetic and passionate developer working towards the completion of my Zuitt Bootcamp training for career progression or shift.</p> 
 
-                  	<a class="apply-button text-dark mt-5 shadow bg-white" aria-pressed="true" role="button" href="#contact-card">Learn More</a>
-             
+                  	<a class="apply-button text-dark mt-5 shadow bg-white " aria-pressed="true" role="button" href="#contact-card">Learn More</a>
+             		</div>
 				
      <!--    </div> -->
 
@@ -97,25 +158,6 @@
 					  </div>
 					
 				</div>
-<!--                 	<h5 id="job-title"class="text-dark">Connect with me</h5>
-        
-					<a href="https://gitlab.com/DianeBiscocho" role="button">
-						<img src="./gitlab.png">
-					</a>
-         		
-         			<a href="https://github.com/DianeBiscocho" role="button">
-						<img src="./github.png">
-					</a>
-         			
-					<a role="button" href="https://www.linkedin.com/in/lady-diane-biscocho/">
-						<img src="./linkedin.png">
-					</a>
-					
-					<a href="https://www.facebook.com/diane.biscocho.5?mibextid=LQQJ4d" role="button">
-						<img src="./fb.png">
-					</a>
- -->
-					
                 
 
                  <div id="about-me-text"class="p-3 col-lg-8 col-md-8 col-sm-12 col-12 order-xl-2 order-lg-2 order-2 order-md-2  order-sm-2 ">
@@ -288,7 +330,6 @@
 					  </div>
 					</div>		
 </section>
-
 
 
 	<!-- Bootstrap Script -->
