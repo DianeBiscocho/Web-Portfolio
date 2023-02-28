@@ -127,22 +127,6 @@ nav {
 
 
 
-/*#bg-2 {
-	min-height: 40rem;
-/*	background-color: gray;*/
-	background-image: url(./projects-bg.gif);
-	background-repeat: no-repeat;
-	/*repeat, no-repeat, repear-x, repeat-y, space, round*/
-	background-size: 100%;
-	/*auto, contain, cover, 100%, px*/
-/*	background-position: 10% 40%;
-	/*10% 40%*/*/
-	background-position: center;
-	background-attachment:scroll;
-	/*scroll, fixed*/
-	/*overflow: scroll;*/
-}*/
-
 
 #projects-bg {
 	background-image: background-image: url(./projects-bg.gif);
